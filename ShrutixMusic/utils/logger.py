@@ -1,12 +1,12 @@
 from pyrogram import Client, enums, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery, ChatPermissions, Message
-from AnonXMusic import app
-from AnonXMusic.misc import SUDOERS
+from ShrutixMusic import app
+from ShrutixMusic.misc import SUDOERS
 import asyncio
 from pyrogram import Client, filters, enums
 from pyrogram.types import Message
-from AnonXMusic import app, Userbot
-from AnonXMusic.utils.database import get_assistant
+from ShrutixMusic import app, Userbot
+from ShrutixMusic.utils.database import get_assistant
 from pyrogram.errors import UserAlreadyParticipant, UserNotParticipant, ChatAdminRequired
 from pyrogram.types import Message
 import asyncio
@@ -14,8 +14,8 @@ from typing import Optional
 from random import randint
 from pyrogram.raw.types import InputGroupCall, InputPeerChannel, InputPeerChat
 from pyrogram.enums import ParseMode
-from AnonXMusic import app
-from AnonXMusic.utils.database import is_on_off
+from ShrutixMusic import app
+from ShrutixMusic.utils.database import is_on_off
 from config import LOGGER_ID as LOG_GROUP_ID
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
