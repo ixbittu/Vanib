@@ -7,7 +7,7 @@ from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont
 from unidecode import unidecode
 from ytSearch import VideosSearch
 
-from ShrutixMusic import app
+from ShrutixMusic import nand
 from config import YOUTUBE_IMG_URL
 
 FAILED = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
